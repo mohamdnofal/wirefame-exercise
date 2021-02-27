@@ -33,7 +33,7 @@ nav a:first-child {
 main {
     margin-left: auto;
     text-align: left;
-
+    position: relative;
 }
 
 main img {
@@ -53,7 +53,14 @@ main p {
   overflow: scroll;
   margin: 20px 0;
   width: 480px;
-  height: 480px;
+  height: 430px;
+}
+main button {
+    position: absolute;bottom: 0;left: 500px;
+    
+}
+main button:hover {
+    transition: 350ms;
 }
 
 footer {
